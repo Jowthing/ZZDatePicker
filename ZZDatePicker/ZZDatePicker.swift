@@ -20,7 +20,7 @@ open class ZZDatePicker: UIViewController {
         public var maximumDate:Date?
         public var minimumDate:Date?
         public var backgroundColor:UIColor?
-        public var datePickerMode:UIDatePickerMode = .date
+        public var datePickerMode:UIDatePicker.Mode = .date
         
         public static var `default`:ZZDatePickerMode { get { return ZZDatePickerMode(date: Date(),
                                                                                      maximumDate: Date(),
